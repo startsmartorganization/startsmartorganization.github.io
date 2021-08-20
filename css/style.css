@@ -658,12 +658,12 @@ a:focus {
 
 @media (max-width: 575.98px) {
     .carousel .carousel-text h2 {
-        font-size: 16px;
+        font-size: 13px;
         color: #f0b400;
     }
     .carousel .carousel-text h5 {
         font-size: 13px;
-        padding:4px;
+        padding:2px;
         color:silver;
     }
     .carousel .carousel-text .btn {
@@ -681,6 +681,7 @@ a:focus {
         flex-direction: column;
         text-align:center;
         z-index: 2;
+        padding:0;
         border-radius: 10px;
         box-shadow: 0px 0px;
         background-color: #000082;
