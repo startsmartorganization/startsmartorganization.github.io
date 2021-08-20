@@ -673,7 +673,7 @@ a:focus {
     }
     .carousel .carousel-text {
         position: absolute;
-        max-width: 500px;
+        max-width: 450px;
         display: flex;
         align-items: center;
         height:max-content;
@@ -682,6 +682,7 @@ a:focus {
         text-align:center;
         z-index: 2;
         padding:0;
+        margin:0;
         border-radius: 10px;
         box-shadow: 0px 0px;
         background-color: #000082;
@@ -689,10 +690,12 @@ a:focus {
         
     .carousel .carousel-img {
         display: none;
+        margin:0;
     }
 
     .carousel .carousel-img::after {
         display: none;
+        margin:0;
     } 
 
 }
