@@ -976,7 +976,7 @@ a:focus {
     margin: 45px 0;
     display: flex;
     align-items: center;
-    background-image: url("/img/home1.png");
+    background-color: #000082;
 }
 
 .facts .facts-item {
@@ -1035,7 +1035,7 @@ a:focus {
         width: 100%;
         display: flex;
         align-items: center;
-        background-image: url("/img/home1.png");
+        background-color: #000082;
     }
     
 }
