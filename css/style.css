@@ -4,7 +4,7 @@
 body {
     color: #777777;
     font-weight: 500;
-    background: #ffffff;
+    background: rgba(0, 0, 0, .1);
     font-family: 'Quicksand', sans-serif;
 }
 /* 
@@ -245,6 +245,7 @@ a:focus {
     width: 100%;
     box-shadow: 0 2px 5px rgba(0, 0, 0, .3);
     transition: .5s;
+    background: white !important;
 }
 
 .navbar {
@@ -279,7 +280,7 @@ a:focus {
     
     .navbar.nav-sticky {
         /* padding: 10px 60px; */
-        background: #ffffff !important;
+        background: white !important;
         border-bottom: none;
     }
     
@@ -445,7 +446,7 @@ a:focus {
 .carousel .carousel-img img {
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    object-fit:cover;
 }
 
 .carousel .carousel-text {
@@ -658,11 +659,11 @@ a:focus {
 
 @media (max-width: 575.98px) {
     .carousel .carousel-text h2 {
-        font-size: 13px;
+        font-size: 22px;
         color: #f0b400;
     }
     .carousel .carousel-text h5 {
-        font-size: 13px;
+        font-size: 16px;
         padding:2px;
         color:silver;
     }
