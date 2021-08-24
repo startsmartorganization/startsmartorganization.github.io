@@ -763,6 +763,10 @@ a:focus {
     font-weight: bold;
     font-style: italic;
 }
+.testimonial .testimonial-name i {
+    font-weight: bold;
+
+}
 
 .testimonial .testimonial-text p {
     margin: 0;
