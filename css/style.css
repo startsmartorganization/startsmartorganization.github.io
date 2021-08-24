@@ -3,7 +3,7 @@
 /*******************************/
 body {
     color: #777777;
-    font-weight: 500;
+    font-weight: bold;
     background: white;
     font-family: 'Quicksand', sans-serif;
 }
@@ -34,7 +34,7 @@ a:focus {
     padding: 12px 20px;
     text-align: center; 
    font-size: 16px;
-    font-weight: 500;
+    font-weight: bold;
     color: #777777;
     border-radius: 0;
     border: 2px solid #FDBE33;
@@ -67,7 +67,7 @@ a:focus {
 .section-header p{
     font-size: 1.5em;
     color: #f0b400;
-    font-weight: bold;
+    font-weight: boldd;
 }
 /**********************************/
 /****** Loader & Back to Top ******/
@@ -197,7 +197,7 @@ a:focus {
 .top-bar .text p {
     color: #ffffff;
     font-size: 16px;
-    font-weight: 500;
+    font-weight: bold;
     margin: 0;
 }
 
@@ -253,7 +253,7 @@ a:focus {
     color: #ffffff;
     font-size: 45px;
     line-height: 0px;
-    font-weight: 700;
+    font-weight: bold;
 }
 .navbar {
     position: relative;
@@ -475,7 +475,7 @@ a:focus {
     text-align: center;
     padding: 4px;
     color: #000082;
-    font-weight: 700;
+    font-weight: bold;
     margin-top:0%;
 }
 .carousel-text li{
@@ -742,8 +742,8 @@ a:focus {
 }
 
 .testimonial .testimonial-profile img {
-    width: 80px;
-    height: 80px;
+    width: 150px;
+    height: 150px;
     margin-bottom: -1px;
 }
 
@@ -754,18 +754,20 @@ a:focus {
 
 .testimonial .testimonial-name h3 {
     font-size: 20px;
-    font-weight: 600;
+    font-weight: bold;
     margin-bottom: 5px;
 }
 
 .testimonial .testimonial-name p {
     margin: 0;
+    font-weight: bold;
     font-style: italic;
 }
 
 .testimonial .testimonial-text p {
     margin: 0;
     padding: 5px;
+    font-weight: 600;
 }
 
 .testimonial .testimonial-text .exp{
@@ -823,7 +825,7 @@ a:focus {
 
 .about .about-tab .nav.nav-pills .nav-link {
     padding: 8px;
-    font-weight: 600;
+    font-weight: bold;
     background: none;
     border-radius: 0;
     border-bottom: 1px solid rgba(0, 0, 0, .15);
@@ -957,7 +959,7 @@ a:focus {
 .service .service-text h3 {
     margin-bottom: 10px;
     font-size: 22px;
-    font-weight: 700;
+    font-weight: bold;
     letter-spacing: 1px;
 }
 
@@ -978,6 +980,13 @@ a:focus {
     display: flex;
     align-items: center;
     background-color: #000082;
+}
+.facts .facts-header h3{
+    display: flex;
+    font-size: 35px;
+    color: #FDBE33;
+   
+    
 }
 
 .facts .facts-item {
@@ -1002,7 +1011,7 @@ a:focus {
     display: inline-block;
     color: #ffffff;
     font-size: 45px;
-    font-weight: 700;
+    font-weight: bold;
 }
 
 .facts .facts-text h3::after {
@@ -1011,7 +1020,7 @@ a:focus {
     color: #ffffff;
     font-size: 25px;
     font-family: "Font Awesome 5 Free";
-    font-weight: 900;
+    font-weight: bold;
 }
 
 .facts .facts-text h3.facts-plus::after {
@@ -1027,7 +1036,7 @@ a:focus {
 .facts .facts-text p {
     color: #ffffff;
     font-size: 22px;
-    font-weight: 600;
+    font-weight: bold;
     margin: 0;
 }
 @media(max-width:591.98px){
@@ -1049,6 +1058,7 @@ a:focus {
     width: 100%;
     padding: 45px 0 15px 0;
 }
+
 
 .team .team-item {
     position: relative;
@@ -1085,13 +1095,14 @@ a:focus {
 }
 
 .team .team-text h2 {
-    font-size: 18px;
-    font-weight: 700;
+    font-size: 20px;
+    font-weight: bold;
     margin-bottom: 10px;
 }
 
 .team .team-text p {
     margin-bottom: 20px;
+
 }
 
 .team .team-social {
@@ -1197,7 +1208,7 @@ a:focus {
 
 .event .event-text h3 {
     font-size: 25px;
-    font-weight: 700;
+    font-weight: bold;
     margin-bottom: 10px;
 }
 
@@ -1268,7 +1279,7 @@ a:focus {
 .footer .footer-newsletter h2 {
     margin-bottom: 30px;
     font-size: 22px;
-    font-weight: 700;
+    font-weight: bold;
     color: #FDBE33;
 }
 
@@ -1283,7 +1294,7 @@ a:focus {
     position: relative;
     content: "\f105";
     font-family: "Font Awesome 5 Free";
-    font-weight: 900;
+    font-weight: bold;
 }
 
 .footer .footer-link a:hover {
