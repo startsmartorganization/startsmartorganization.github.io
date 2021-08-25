@@ -776,7 +776,9 @@ a:focus {
     line-height: 100%;
     color: #FDBE33;
 }
-
+.facts .col-lg-3{
+    margin-right: 8%;
+}
 .facts .facts-text {
     padding-left: 8%;
 }
