@@ -2,7 +2,7 @@
 /********* General CSS *********/
 /*******************************/
 body {
-    color:black;
+    color:#000082;
     font-weight: 500;
     background: white;
     font-family: 'helvetica', sans-serif;
@@ -35,7 +35,7 @@ a:focus {
     text-align: center; 
    font-size: 16px;
     font-weight: 500;
-    color: #777777;
+    color: black;
     border-radius: 0;
     border: 2px solid #FDBE33;
     box-shadow: inset 0 0 0 0 #FDBE33;
@@ -45,7 +45,7 @@ a:focus {
 }
 
 .btn.btn-custom:hover {
-    color: #20212B;
+    color: black;
     box-shadow: inset 0 0 0 30px #FDBE33;
 }
 
@@ -68,6 +68,11 @@ a:focus {
     font-size: 1.5em;
     color: #f0b400;
     font-weight: bold;
+}
+
+.section-header h4{
+    color: #000082;
+    font-weight: 600;
 }
 /**********************************/
 /****** Loader & Back to Top ******/
@@ -122,7 +127,7 @@ a:focus {
 .back-to-top {
     position: fixed;
     display: none;
-    background: #FDBE33;
+    background: #f0b400;
     width: 44px;
     height: 44px;
     text-align: center;
@@ -135,16 +140,16 @@ a:focus {
 }
 
 .back-to-top i {
-    color: #4a4c70;
+    color: #000082;
     padding-top: 10px;
 }
 
 .back-to-top:hover {
-    background: #4a4c70;
+    background: #000082;
 }
 
 .back-to-top:hover i {
-    color: #FDBE33;
+    color: #f0b400;
 }
 
 
@@ -463,7 +468,7 @@ a:focus {
 }
 .carousel-text h5{
     border:1 solid white;
-    font-size:2em;
+    font-size:19px;
     color: white;
     padding: 4px;
 }
@@ -494,7 +499,7 @@ a:focus {
         font-size: 30px;
     }
     .carousel .carousel-text h5 {
-        font-size: 16px;
+        font-size: 19px;
     }
     
 }
@@ -517,7 +522,7 @@ a:focus {
 .testimonial {
     position: relative;
     width: 100%;
-    padding: 45px 0;
+    padding: 5% 0;
 }
 
 .testimonial .testimonials-carousel {
@@ -570,7 +575,7 @@ a:focus {
 }
 
 .testimonial .testimonial-text .exp{
-    overflow: hidden;
+   overflow: hidden;
    text-overflow: ellipsis;
    display: -webkit-box;
    -webkit-line-clamp: 3; /* number of lines to show */
@@ -605,7 +610,7 @@ a:focus {
 .about {
     position: relative;
     width: 100%;
-    padding-top: 5%;
+    padding-top: 3%;
 }
 
 .about .section-header {
@@ -624,7 +629,9 @@ a:focus {
 .about .about-tab {
     width: 100%;
 }
-
+.about-tab a{
+    color: #000082;
+}
 .about .about-tab .nav.nav-pills .nav-link {
     padding: 5%;
     font-weight: 600;
@@ -907,33 +914,45 @@ a:focus {
 .event {
     position: relative;
     width: 100%;
-    padding: 45px 0 15px 0;
+    margin-bottom: 5%;
+    padding: 2% 0 2% 0;
 }
 
 .event .event-item {
-    margin-bottom: 30px;
+    margin-bottom: 2%;
     background: #f3f6ff;
 }
 
 .event .event-item img {
     width: 100%;
 }
+.event .event-item h5{
+    font-weight: 600;
+    font-size: 1em;
+    text-align:center;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    background-color: #000082;
+    color: #f0b400;
+
+}
 
 .event .event-content {
-    padding: 30px;
+    padding: 5%;
     display: flex;
 }
 
 .event .event-meta {
-    margin-bottom: 15px;
+    margin-bottom: 3%;
     display: flex;
     flex-direction: column;
 }
 
 .event .event-meta p {
     position: relative;
-    margin-bottom: 8px;
-    padding-bottom: 8px;
+    margin-bottom: 3%;
+    font-size: 0.9em;
+    padding-bottom: 2%;
     white-space: nowrap;
     border-bottom: 1px solid rgba(0, 0, 0, .15);
 }
@@ -941,18 +960,28 @@ a:focus {
 .event .event-meta p:last-child {
     border-bottom: none;
 }
-
+.event .section-header{
+    margin-bottom: 3%;
+}
 .event .event-meta i {
-    color: #4a4c70;
+    color: #000082;
     width: 25px;
 }
 
 .event .event-text {
     position: relative;
-    margin-left: 20px;
-    padding-left: 20px;
+    margin-left: 3%;
+    padding-left: 3%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 12; /* number of lines to show */
+    -webkit-box-orient: vertical;
 }
-
+.event .event-text:hover{
+    display: block;
+}
+ 
 .event .event-text::before {
     position: absolute;
     content: "";
@@ -970,17 +999,12 @@ a:focus {
     height: 40px;
     top: calc(50% - 20px);
     left: -1px;
-    background: #FDBE33;
-}
-
-.event .event-text h3 {
-    font-size: 25px;
-    font-weight: 700;
-    margin-bottom: 10px;
+    background: #f0b400;
 }
 
 .event .event-text p {
     margin: 0;
+    font-size: 0.9em;
 }
 
 .event .btn.btn-custom {
